@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECAB8C5C1E53EB5300A8EDD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB8C5B1E53EB5300A8EDD4 /* main.m */; };
+		ECAB8C5F1E53EB5300A8EDD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB8C5E1E53EB5300A8EDD4 /* AppDelegate.m */; };
+		ECAB8C621E53EB5300A8EDD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB8C611E53EB5300A8EDD4 /* ViewController.m */; };
+		ECAB8C651E53EB5300A8EDD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAB8C631E53EB5300A8EDD4 /* Main.storyboard */; };
+		ECAB8C671E53EB5300A8EDD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECAB8C661E53EB5300A8EDD4 /* Assets.xcassets */; };
+		ECAB8C6A1E53EB5300A8EDD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECAB8C681E53EB5300A8EDD4 /* LaunchScreen.storyboard */; };
+		ECAB8C751E53EB5300A8EDD4 /* OtpWaitingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB8C741E53EB5300A8EDD4 /* OtpWaitingDemoTests.m */; };
+		ECAB8C821E53EB9B00A8EDD4 /* SPWattingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB8C811E53EB9B00A8EDD4 /* SPWattingButton.m */; };
+		ECAB8C851E53EDA700A8EDD4 /* SPTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB8C841E53EDA700A8EDD4 /* SPTextFieldCell.m */; };
+		ECAB8C8B1E53F1E500A8EDD4 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = ECAB8C8A1E53F1E500A8EDD4 /* UIButton+Block.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECAB8C711E53EB5300A8EDD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECAB8C4F1E53EB5300A8EDD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECAB8C561E53EB5300A8EDD4;
+			remoteInfo = OtpWaitingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECAB8C571E53EB5300A8EDD4 /* OtpWaitingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtpWaitingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAB8C5B1E53EB5300A8EDD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECAB8C5D1E53EB5300A8EDD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECAB8C5E1E53EB5300A8EDD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECAB8C601E53EB5300A8EDD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECAB8C611E53EB5300A8EDD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECAB8C641E53EB5300A8EDD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECAB8C661E53EB5300A8EDD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECAB8C691E53EB5300A8EDD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECAB8C6B1E53EB5300A8EDD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAB8C701E53EB5300A8EDD4 /* OtpWaitingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtpWaitingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAB8C741E53EB5300A8EDD4 /* OtpWaitingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtpWaitingDemoTests.m; sourceTree = "<group>"; };
+		ECAB8C761E53EB5300A8EDD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAB8C801E53EB9B00A8EDD4 /* SPWattingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPWattingButton.h; sourceTree = "<group>"; };
+		ECAB8C811E53EB9B00A8EDD4 /* SPWattingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPWattingButton.m; sourceTree = "<group>"; };
+		ECAB8C831E53EDA700A8EDD4 /* SPTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTextFieldCell.h; sourceTree = "<group>"; };
+		ECAB8C841E53EDA700A8EDD4 /* SPTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTextFieldCell.m; sourceTree = "<group>"; };
+		ECAB8C891E53F1E500A8EDD4 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		ECAB8C8A1E53F1E500A8EDD4 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECAB8C541E53EB5300A8EDD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAB8C6D1E53EB5300A8EDD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECAB8C4E1E53EB5300A8EDD4 = {
+			isa = PBXGroup;
+			children = (
+				ECAB8C591E53EB5300A8EDD4 /* OtpWaitingDemo */,
+				ECAB8C731E53EB5300A8EDD4 /* OtpWaitingDemoTests */,
+				ECAB8C581E53EB5300A8EDD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECAB8C581E53EB5300A8EDD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8C571E53EB5300A8EDD4 /* OtpWaitingDemo.app */,
+				ECAB8C701E53EB5300A8EDD4 /* OtpWaitingDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECAB8C591E53EB5300A8EDD4 /* OtpWaitingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8C7F1E53EB6400A8EDD4 /* SPWaitingButton */,
+				ECAB8C5D1E53EB5300A8EDD4 /* AppDelegate.h */,
+				ECAB8C5E1E53EB5300A8EDD4 /* AppDelegate.m */,
+				ECAB8C601E53EB5300A8EDD4 /* ViewController.h */,
+				ECAB8C611E53EB5300A8EDD4 /* ViewController.m */,
+				ECAB8C631E53EB5300A8EDD4 /* Main.storyboard */,
+				ECAB8C661E53EB5300A8EDD4 /* Assets.xcassets */,
+				ECAB8C681E53EB5300A8EDD4 /* LaunchScreen.storyboard */,
+				ECAB8C6B1E53EB5300A8EDD4 /* Info.plist */,
+				ECAB8C5A1E53EB5300A8EDD4 /* Supporting Files */,
+			);
+			path = OtpWaitingDemo;
+			sourceTree = "<group>";
+		};
+		ECAB8C5A1E53EB5300A8EDD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8C5B1E53EB5300A8EDD4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECAB8C731E53EB5300A8EDD4 /* OtpWaitingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8C741E53EB5300A8EDD4 /* OtpWaitingDemoTests.m */,
+				ECAB8C761E53EB5300A8EDD4 /* Info.plist */,
+			);
+			path = OtpWaitingDemoTests;
+			sourceTree = "<group>";
+		};
+		ECAB8C7F1E53EB6400A8EDD4 /* SPWaitingButton */ = {
+			isa = PBXGroup;
+			children = (
+				ECAB8C891E53F1E500A8EDD4 /* UIButton+Block.h */,
+				ECAB8C8A1E53F1E500A8EDD4 /* UIButton+Block.m */,
+				ECAB8C831E53EDA700A8EDD4 /* SPTextFieldCell.h */,
+				ECAB8C841E53EDA700A8EDD4 /* SPTextFieldCell.m */,
+				ECAB8C801E53EB9B00A8EDD4 /* SPWattingButton.h */,
+				ECAB8C811E53EB9B00A8EDD4 /* SPWattingButton.m */,
+			);
+			name = SPWaitingButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECAB8C561E53EB5300A8EDD4 /* OtpWaitingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAB8C791E53EB5300A8EDD4 /* Build configuration list for PBXNativeTarget "OtpWaitingDemo" */;
+			buildPhases = (
+				ECAB8C531E53EB5300A8EDD4 /* Sources */,
+				ECAB8C541E53EB5300A8EDD4 /* Frameworks */,
+				ECAB8C551E53EB5300A8EDD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OtpWaitingDemo;
+			productName = OtpWaitingDemo;
+			productReference = ECAB8C571E53EB5300A8EDD4 /* OtpWaitingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECAB8C6F1E53EB5300A8EDD4 /* OtpWaitingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAB8C7C1E53EB5300A8EDD4 /* Build configuration list for PBXNativeTarget "OtpWaitingDemoTests" */;
+			buildPhases = (
+				ECAB8C6C1E53EB5300A8EDD4 /* Sources */,
+				ECAB8C6D1E53EB5300A8EDD4 /* Frameworks */,
+				ECAB8C6E1E53EB5300A8EDD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECAB8C721E53EB5300A8EDD4 /* PBXTargetDependency */,
+			);
+			name = OtpWaitingDemoTests;
+			productName = OtpWaitingDemoTests;
+			productReference = ECAB8C701E53EB5300A8EDD4 /* OtpWaitingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECAB8C4F1E53EB5300A8EDD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = pactera;
+				TargetAttributes = {
+					ECAB8C561E53EB5300A8EDD4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UR8GD3H89P;
+						ProvisioningStyle = Automatic;
+					};
+					ECAB8C6F1E53EB5300A8EDD4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UR8GD3H89P;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECAB8C561E53EB5300A8EDD4;
+					};
+				};
+			};
+			buildConfigurationList = ECAB8C521E53EB5300A8EDD4 /* Build configuration list for PBXProject "OtpWaitingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECAB8C4E1E53EB5300A8EDD4;
+			productRefGroup = ECAB8C581E53EB5300A8EDD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECAB8C561E53EB5300A8EDD4 /* OtpWaitingDemo */,
+				ECAB8C6F1E53EB5300A8EDD4 /* OtpWaitingDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECAB8C551E53EB5300A8EDD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAB8C6A1E53EB5300A8EDD4 /* LaunchScreen.storyboard in Resources */,
+				ECAB8C671E53EB5300A8EDD4 /* Assets.xcassets in Resources */,
+				ECAB8C651E53EB5300A8EDD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAB8C6E1E53EB5300A8EDD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECAB8C531E53EB5300A8EDD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAB8C621E53EB5300A8EDD4 /* ViewController.m in Sources */,
+				ECAB8C821E53EB9B00A8EDD4 /* SPWattingButton.m in Sources */,
+				ECAB8C5F1E53EB5300A8EDD4 /* AppDelegate.m in Sources */,
+				ECAB8C8B1E53F1E500A8EDD4 /* UIButton+Block.m in Sources */,
+				ECAB8C851E53EDA700A8EDD4 /* SPTextFieldCell.m in Sources */,
+				ECAB8C5C1E53EB5300A8EDD4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAB8C6C1E53EB5300A8EDD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAB8C751E53EB5300A8EDD4 /* OtpWaitingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECAB8C721E53EB5300A8EDD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECAB8C561E53EB5300A8EDD4 /* OtpWaitingDemo */;
+			targetProxy = ECAB8C711E53EB5300A8EDD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECAB8C631E53EB5300A8EDD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAB8C641E53EB5300A8EDD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECAB8C681E53EB5300A8EDD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECAB8C691E53EB5300A8EDD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECAB8C771E53EB5300A8EDD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECAB8C781E53EB5300A8EDD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECAB8C7A1E53EB5300A8EDD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UR8GD3H89P;
+				INFOPLIST_FILE = OtpWaitingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.www.OtpWaitingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECAB8C7B1E53EB5300A8EDD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UR8GD3H89P;
+				INFOPLIST_FILE = OtpWaitingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.www.OtpWaitingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECAB8C7D1E53EB5300A8EDD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UR8GD3H89P;
+				INFOPLIST_FILE = OtpWaitingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.www.OtpWaitingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OtpWaitingDemo.app/OtpWaitingDemo";
+			};
+			name = Debug;
+		};
+		ECAB8C7E1E53EB5300A8EDD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UR8GD3H89P;
+				INFOPLIST_FILE = OtpWaitingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pactera.www.OtpWaitingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OtpWaitingDemo.app/OtpWaitingDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECAB8C521E53EB5300A8EDD4 /* Build configuration list for PBXProject "OtpWaitingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAB8C771E53EB5300A8EDD4 /* Debug */,
+				ECAB8C781E53EB5300A8EDD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAB8C791E53EB5300A8EDD4 /* Build configuration list for PBXNativeTarget "OtpWaitingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAB8C7A1E53EB5300A8EDD4 /* Debug */,
+				ECAB8C7B1E53EB5300A8EDD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECAB8C7C1E53EB5300A8EDD4 /* Build configuration list for PBXNativeTarget "OtpWaitingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAB8C7D1E53EB5300A8EDD4 /* Debug */,
+				ECAB8C7E1E53EB5300A8EDD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECAB8C4F1E53EB5300A8EDD4 /* Project object */;
+}
